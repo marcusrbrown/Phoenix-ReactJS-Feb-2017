@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import {
+  Appear,
   BlockQuote,
   Cite,
   Deck,
@@ -29,35 +30,65 @@ class App extends Component {
       <Deck transition={["zoom", "slide"]} transitionDuration={500} theme={theme}>
         <Slide transition={["zoom"]} bgColor="primary">
           <Heading size={1} fit caps lineHeight={1} textColor="secondary">
-            Spectacle Boilerplate
+            Create React App
           </Heading>
-          <Text margin="10px 0 0" textColor="tertiary" size={1} fit bold>
-            open the src/App.js file to get started
-          </Text>
+          <Heading size={1} fit caps>
+            Phoenix ReactJS February 2017
+          </Heading>
+        </Slide>
+        <Slide>
+          <Heading size={2} fit caps>
+            Introduction
+          </Heading>
+        </Slide>
+        <Slide>
+          <Heading size={2} fit caps>
+            What is Create React App?
+          </Heading>
         </Slide>
         <Slide transition={["fade"]} bgColor="tertiary">
-          <Heading size={6} textColor="primary" caps>Typography</Heading>
-          <Heading size={1} textColor="secondary">Heading 1</Heading>
-          <Heading size={2} textColor="secondary">Heading 2</Heading>
-          <Heading size={3} textColor="secondary">Heading 3</Heading>
-          <Heading size={4} textColor="secondary">Heading 4</Heading>
-          <Heading size={5} textColor="secondary">Heading 5</Heading>
-          <Text size={6} textColor="secondary">Standard text</Text>
-        </Slide>
-        <Slide transition={["fade"]} bgColor="primary" textColor="tertiary">
-          <Heading size={6} textColor="secondary" caps>Standard List</Heading>
+          <Heading size={6} textColor="primary" caps>What is Create React App?</Heading>
           <List>
-            <ListItem>Item 1</ListItem>
-            <ListItem>Item 2</ListItem>
-            <ListItem>Item 3</ListItem>
-            <ListItem>Item 4</ListItem>
+            <Appear><ListItem textColor="secondary">Create React applications with little to no configuration</ListItem></Appear>
+            <Appear><ListItem textColor="secondary">Provides a rapid development environment</ListItem></Appear>
+            <Appear><ListItem textColor="secondary">Builds production-ready bundles</ListItem></Appear>
           </List>
         </Slide>
-        <Slide transition={["fade"]} bgColor="secondary" textColor="primary">
-          <BlockQuote>
-            <Quote>Example Quote</Quote>
-            <Cite>Author</Cite>
-          </BlockQuote>
+        <Slide>
+          <Heading size={2} fit caps>
+            Why use Create React App?
+          </Heading>
+        </Slide>
+        <Slide transition={["fade"]} bgColor="tertiary">
+          <Heading size={6} textColor="primary" caps>Why use Create React App?</Heading>
+          <List>
+            <Appear><ListItem textColor="secondary">Start writing code immediately</ListItem></Appear>
+            <Appear><ListItem textColor="secondary">See code changes instantly</ListItem></Appear>
+            <Appear><ListItem textColor="secondary">Great support, maintained by Facebook</ListItem></Appear>
+          </List>
+        </Slide>
+        <Slide>
+          <Heading size={2} fit caps>
+            Demo
+          </Heading>
+        </Slide>
+        <Slide>
+          <Heading size={2} fit caps>
+            Use Cases
+          </Heading>
+        </Slide>
+        <Slide transition={["fade"]} bgColor="tertiary">
+          <Heading size={6} textColor="primary" caps>Use Cases</Heading>
+          <List>
+            <Appear><ListItem textColor="secondary">GitHub Pages / Blog</ListItem></Appear>
+            <Appear><ListItem textColor="secondary">Desktop app in Electron</ListItem></Appear>
+            <Appear><ListItem textColor="secondary">Playground</ListItem></Appear>
+          </List>
+        </Slide>
+        <Slide>
+          <Heading size={2} fit caps>
+            Questions?
+          </Heading>
         </Slide>
       </Deck>
     );
