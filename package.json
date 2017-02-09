@@ -1,6 +1,7 @@
 {
   "name": "Phoenix-ReactJS-Feb-2017",
   "version": "0.1.0",
+  "homepage": "https://igetgames.github.io/Phoenix-ReactJS-Feb-2017",
   "private": true,
   "devDependencies": {
     "@igetgames/spectacle-react-scripts": "0.8.5-igetgames.3"
