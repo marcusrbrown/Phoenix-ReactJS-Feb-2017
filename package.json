@@ -5,12 +5,12 @@
   "private": true,
   "devDependencies": {
     "@igetgames/spectacle-react-scripts": "0.8.5-igetgames.3",
-    "gh-pages": "^0.12.0"
+    "gh-pages": "0.12.0"
   },
   "dependencies": {
-    "react": "^15.4.2",
-    "react-dom": "^15.4.2",
-    "spectacle": "^2.0.0"
+    "react": "15.7.0",
+    "react-dom": "15.7.0",
+    "spectacle": "2.2.2"
   },
   "scripts": {
     "start": "react-scripts start",
